@@ -1,8 +1,10 @@
 .wrap {
-	background:#2d261a url(../image/background.png)
+	background:#2d261a url(../image/background.png);
 }
 .fire {
 	background:url(../image/background-top.png) no-repeat 100% 0;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
 .logo {
 	display: table;
@@ -85,7 +87,8 @@
 	padding-right: 7px;
 }
 .text-sovet1 {
-	background: url('../image/text-main.png') repeat-x, 
+	background: url('../image/text-fon.png') no-repeat 0 90px, 
+				url('../image/text-main.png') repeat-x, 
 				url('../image/text-main2.png') repeat-x;
 	position: relative;
 	z-index: 1;
@@ -120,7 +123,8 @@ display:none;
 
 .nbs-flexisel-container {
     position:relative;
-    background: url('../image/courusel-fon.png') repeat-x;
+    background: url('../image/courusel-fon1.png') no-repeat center,
+    			url('../image/courusel-fon.png') repeat-x;
     border-radius: 20px;
     padding-top: 30px;
     margin-left: 55px;
@@ -170,6 +174,7 @@ display:none;
     left: 50px;
     width: 10px;
     height: 21px;
+    
 }
 
 .nbs-flexisel-nav-left.disabled {
@@ -215,4 +220,79 @@ display:none;
 }
 .fon-bottom {
 	background: url('../image/background-bottom.png') no-repeat 0 100%;
+}
+
+/*footer*/
+.footer {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.map, .contax {
+	margin-bottom: 40px;
+	width: 415px;
+	height: 220px;
+	background: url('../image/map.png') no-repeat 65% 40px;
+	position: relative;
+}
+.text-map {
+	margin-left: 17%;
+	padding-top: 67px;
+	display: table;
+	border-bottom: 1px dashed #fff;
+	font-size: 18px;
+	padding-bottom: 1px;
+}
+.adress {
+	position: absolute;
+	right: 18%;
+	top: 122px;
+	z-index: 2;
+	font-size: 18px;
+}
+.copy {
+	background: url('../image/copy-img.png') no-repeat 100% 0;
+	display: block;
+	border-bottom: 1px solid #fff;
+	text-align: right;
+	padding-right: 60px;
+	padding-bottom: 4px;
+	margin-top: 90px;
+}
+.copy1 {
+	text-align: right;
+	padding-top: 2px;
+	display: block;
+	font-size: 11px;
+}
+.contax {
+	background: url('../image/clyacsa.png') no-repeat 100% 0;
+	float: right;
+}
+.cTitle {
+	margin-top: 40px;
+	position: relative;
+	top: 1px;
+	background: url('../image/contax-title.png') no-repeat;
+	width: 68px;
+	height: 5px;
+}
+.cText {
+	border-top: 1px solid #fff;
+	padding-top: 30px;
+	padding-left: 80px;
+	background: url('../image/svet.png') no-repeat 0 -10px,
+				url('../image/mobil.png') no-repeat 10px 50px;
+}
+.cText1 {
+	font-size: 11px;
+}
+.cText1 p:nth-child(1), .cText1 p:nth-child(3) {
+	padding-bottom: 10px;
+}
+.cText1 p:nth-child(4) {
+	padding-bottom: 5px;
+}
+.cText1 p:nth-child(2) {
+	padding-bottom: 10px;
+	font-size: 22px;
 }

@@ -13,7 +13,7 @@ body {
 	line-height:1.2em;
 	font-family: 'Conv_9404';
 }
-body,form,ul, h1, h2, h3, h4, h5, h6 {
+body,form,ul, h1, h2, h3, h4, h5, h6, p {
 	padding:0;
 	margin:0;
 }
