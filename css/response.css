@@ -1,0 +1,58 @@
+@media (max-width: 991px) {
+	.navbar-light .navbar-toggler {
+		color: #fff !important;
+		font-size: 26px;
+		margin-top: 5px;
+	}
+	.navbar {
+		display: table !important;
+		float: right !important;
+		position: relative;
+	}
+	.navbar i {
+		position: absolute;
+		right: 0;
+		display: block;
+	}
+	.navbar-toggler {
+		padding: 0;
+	}
+	.navbar-toggler:focus {
+		outline: 0;
+	}
+	.navbar-nav {
+		position: absolute;
+		right: 0;
+		z-index: 4;
+		top: 40px;
+		background: #fff;
+		border: 1px solid #000;
+	}
+	.text--menu {
+		border-bottom: 0;
+		margin-left: 0;
+	}
+	.menu a {
+		font-size: 14px;
+		color: #000 !important;
+	}
+	.menu a:first-letter {
+		color: #000 !important;
+		font-size: 14px;
+		background: none;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.menu li.active, .menu li:hover {
+		background: none;
+		padding: 0 10px;
+	}
+	.menu li {
+		border-bottom: 1px dashed #000;
+		width: 100%;
+		padding: 0 10px;
+	}
+	.menu li:last-child {
+		border-bottom: 0;
+	}
+}
