@@ -27,7 +27,7 @@
 .top-button{float:right;margin-right:20px}
 .pad{margin-top:95px}
 .menu li{padding:10px;margin-right:30px}
-.menu li.active,.menu li:hover{padding:10px;background:url(../image/menu-button.png);border-radius:10px;margin-right:30px}
+.menu li.active,.menu li:hover{padding:10px;background:url(../image/menu-button.png);-webkit-border-radius:10px;border-radius:10px;margin-right:30px}
 .menu a{color:#fff!important;font-size:22px}
 .text--menu{border-bottom:1px solid #604c0f;margin-left:1px}
 span.title-menu{color:#5a5958!important;font-size:11px;position:absolute;right:12px;top:-17px}
@@ -58,8 +58,10 @@ span.title-menu{color:#5a5958!important;font-size:11px;position:absolute;right:1
 	width: 70%;
 	background: url('../image/text-main.png'),
 				url('../image/text-main.png') repeat-x 0 100%;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	        border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	        border-bottom-right-radius: 5px;
 	margin-bottom: 30px;
 	padding: 5px 30px;
 	position: relative;
@@ -162,7 +164,8 @@ display:none;
     position:relative;
     background: url('../image/courusel-fon1.png') no-repeat center,
     			url('../image/courusel-fon.png') repeat-x;
-    border-radius: 20px;
+    -webkit-border-radius: 20px;
+            border-radius: 20px;
     padding-top: 30px;
     margin: auto;
     width: 94%;
